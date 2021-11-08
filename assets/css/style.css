@@ -13,6 +13,9 @@ body {
 header {
     background-color:#2c263a;
     height: 68px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -22,8 +25,6 @@ header a {
 header h1 {
     background-color: rgb(134, 197, 201);
     margin:5px 0 15px 0;
-    display: inline;
-    position: absolute;
 }
 
 header h1 a {
@@ -32,15 +33,14 @@ header h1 a {
     line-height: 1.5;
 }
 
-header nav {
-    float: right;
-}
-
 header nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     margin: 5px 25px 10px 20px;
     padding: 15px 30px;
-    list-style-type: none;
+    list-style: none;
 }
 
 header nav ul li a {
