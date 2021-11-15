@@ -12,7 +12,6 @@ body {
 
 header {
     background-color:#2c263a;
-    height: 68px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,17 +51,18 @@ header nav ul li a {
 }
 
 #hero {
-    height: 160px;
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
 }
 
 #hero h2 {
     background-color: rgb(134, 197, 201);
-    margin: 90px 0 40px 1100px;
+    margin: 90px 90px 40px 0;
     padding: 8px;
-    position: absolute;
     color:#040422;
     font-size: 1.75em;
 }
@@ -75,29 +75,44 @@ header nav ul li a {
 .content-left {
     width: 25%;
     font-size: 3em;
-    text-align: right;
-    display: inline;
-    padding: 5px 20px;
+    float: right;
+    padding: 15px 15px 0 0;
     font-weight: bold;
     border-right: #50506e solid 4px;
+    text-align: right;
 }
 
 .content-right {
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px 30px;
     width: 75%;
-    display: inline;
 }
 
 .project-n {
-    float: left;
+    width: 100%;
     position: relative;
+}
+
+.project-grid-1 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.project-grid-2 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.project-spacing {
+    margin: 0 5px;
 }
 
 .project-title {
     position: absolute;
     bottom: 20px;
     left: 10px;
-    padding: 5px 3px;
+    padding: 8px 3px;
     font-size: 1.5em;
     font-weight: bold;
     background-color: rgb(134, 197, 201);
@@ -109,37 +124,38 @@ header nav ul li a {
 }
 
 .lg-iframe {
-    width: 1010px;
-    height: 404px;
+    width: 100%;
     margin: 5px;
     border: rgb(134, 197, 201) solid 5px;
 }
 
 .sm-iframe {
-    width: 500px;
-    height: 200px;
+    width: 100%;
     margin: 5px;
     border: rgb(134, 197, 201) solid 5px;
 }
 
 #contact-media {
     display: flex;
+    flex-wrap: flex;
     justify-content: center;
 }
 
 #contact-media ul {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
     margin: 5px 25px 10px 20px;
     padding: 15px 30px;
     list-style-type: none;
 }
 
 #contact-media ul li a {
-    padding: 10px 10px 5px 10px;
+    padding: 5px;
     border-bottom: 4px solid;
-    margin: 25px;
+    margin: 10px;
     font-size: 1.2em;
     text-decoration: none;
     color:#50506e;
     font-weight: bold;
+    line-height: 2; 
 }
