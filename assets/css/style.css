@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* styled to approximately match template provided */
+
 body {
     background-color:#e4e7e9;
     color:#50506e;
@@ -49,6 +51,8 @@ header nav ul li a {
     margin: 15px 5px 20px 5px;
     font-size: 1.2em;
 }
+
+/* photoshopped hero image as placeholder */
 
 #hero {
     background-image: url("../images/hero-image.jpg");
@@ -136,6 +140,7 @@ header nav ul li a {
 
 .lg-frame:hover {
     border-color: crimson;
+    background-color: crimson;
 }
 
 .sm-frame {
@@ -147,6 +152,7 @@ header nav ul li a {
 
 .sm-frame:hover {
     border-color:crimson;
+    background-color: crimson;
 }
 
 .sm-frame img {
