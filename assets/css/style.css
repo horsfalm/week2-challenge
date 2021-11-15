@@ -123,16 +123,34 @@ header nav ul li a {
     font-weight: normal;
 }
 
-.lg-iframe {
+.lg-frame {
     width: 100%;
     margin: 5px;
-    border: rgb(134, 197, 201) solid 5px;
+    border: rgb(134, 197, 201) solid 7px;
+    background-color: rgb(134, 197, 201);
 }
 
-.sm-iframe {
+.lg-frame img {
+    width: 100%;
+}
+
+.lg-frame:hover {
+    border-color: crimson;
+}
+
+.sm-frame {
     width: 100%;
     margin: 5px;
-    border: rgb(134, 197, 201) solid 5px;
+    border: rgb(134, 197, 201) solid 7px;
+    background-color: rgb(134, 197, 201);
+}
+
+.sm-frame:hover {
+    border-color:crimson;
+}
+
+.sm-frame img {
+    width: 100%;
 }
 
 #contact-media {
